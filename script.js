@@ -1,6 +1,6 @@
 function convertToC(fahrenheit) {
-  let celsius = fahrenheit * 9/5 + 32;
+  let celsius = (fahrenheit - 32)/1.8;
   return celsius;
 };
 
-console.log(convertToC(100));
+console.log(convertToC(98.6));
