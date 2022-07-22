@@ -1,6 +1,4 @@
-function convertToC(fahrenheit) {
-  let celsius = (fahrenheit - 32)/1.8;
-  return celsius;
-};
-
-console.log(convertToC(98.6));
+function temperatureConverter(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("outputCelsius").innerHTML = (valNum-32) / 1.8;
+  }
